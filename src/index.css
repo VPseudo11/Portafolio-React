@@ -1,3 +1,13 @@
+:root {
+  --color-1: #c9ddff;
+  --color-2: #ecb0e1;
+  --color-3: #de6c83;
+  --color-4: #c1aac0;
+  --color-5: #2cf6b3;
+}
+
 body {
   margin: 0;
+  background-color: var(--color-1);
+  font-family: 'Crimson Text', serif;
 }
