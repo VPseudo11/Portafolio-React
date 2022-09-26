@@ -10,12 +10,11 @@ const Footer = () => {
 }
 
 const FooterContainer = styled.footer`
-    max-width: 1200px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-4);
+    background-color: rgba(49, 121, 124, 1);
     &>p{
         color: var(--color-1)
     }

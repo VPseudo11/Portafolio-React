@@ -4,14 +4,9 @@ import Profile_Img from './../assets/img/Profile.png'
 
 const AboutMe = () => {
     return (
-        <AboutMeSection>
+        <AboutMeSection id='aboutMe'>
             <ImageProfileContainer>
-                <ImageProfile src={Profile_Img} alt="" />
-                <SocialProfile>
-                    <a href="https://github.com/VPseudo11" target='blank'><i className="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/javier-calva-a150ab233/" target='blank'><i className="fa-brands fa-linkedin"></i></a>
-                    <a href='/'><i className="fa-solid fa-message"></i></a>
-                </SocialProfile>
+                <img src={Profile_Img} alt="" />
             </ImageProfileContainer>
             <DescriptionProfile>
                 <p>Mi nombre es Diego Javier Calva, soy estudiante de Academlo como full Stack Web Development y también
@@ -31,55 +26,39 @@ const AboutMe = () => {
 const AboutMeSection = styled.section`
     max-width: 1200px;
     width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px 30px;
     gap: 15px;
-    background-color: rgba(0, 0, 0, .1);
+    
+    @media(max-width: 768px){
+        flex-direction: column;
+        height: auto;
+        margin: 30px 0;
+    }
 `
 
 const ImageProfileContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 15px;
-    flex-direction: column;
-    gap: 15px;
-`
+    padding: 30px;
 
-const ImageProfile = styled.img`
-    width: 220px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 50%;
-`
-
-const SocialProfile = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    &>a{
-        font-size: 2.1rem;
-        color: var(--color-4);
-        &:hover{
-            color: var(--color-5);
-            transform: scale(1.2);
-            transition: all .3s ease;
-        }
+    &>img{
+        width: 250px;
+        border: 6px solid #31797C;
+        border-left: none;
+        border-bottom: none;
+        box-shadow: rgba(49, 121, 124, 0.4) -5px 5px, rgba(49, 121, 124, 0.3) -10px 10px, rgba(49, 121, 124, 0.2) -15px 15px, rgba(49, 121, 124, 0.1) -20px 20px, rgba(49, 121, 124, 0.05) -25px 25px;
     }
 `
 
 const DescriptionProfile = styled.div`
-    background-color: rgba(193, 170, 192, .6);
-    padding: 5px;
+    padding: 15px;
+
     &>p {
         font-size: 1.2rem;
         text-align: justify;
+        color: white;
     }
 `
-
-
 
 export default AboutMe

@@ -1,17 +1,19 @@
 import styled from 'styled-components'
 import Abilities from './components/Abilities'
 import AboutMe from './components/AboutMe'
-import Briefcase from './components/Briefcase'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Profile from './components/Profile'
+import SlideShow from './components/SlideShow'
 
 function App() {
 
   return (
     <AppContainer>
       <Header />
+      <Profile />
       <AboutMe />
-      <Briefcase />
+      <SlideShow />
       <Abilities />
       <Footer />
     </AppContainer>
@@ -23,5 +25,5 @@ const AppContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: 0 auto;
-` 
+`
 export default App

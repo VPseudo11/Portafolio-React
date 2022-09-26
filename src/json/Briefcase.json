@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Weather App",
+        "description": "Es una aplicacion del clima la cual esta echa con React en donde se hace uso de diferentes APIs para poder obtener tanto la ubiccacion actual del usuario asi como poder realizar la busqueda por ciudades y obtener su clima, ademas cuenta con un sistema para realizar un pronostico de los siquientes dias de la semana.",
+        "link": "https://dev-time-tech.netlify.app"
+    },
+    {
+        "id": 2,
+        "title": "Rick and Morty Information ",
+        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
+        "link": "https://magical-moonbeam.netlify.app"
+    },
+    {
+        "id": 3,
+        "title": "",
+        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "title": "",
+        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
+        "link": ""
+    }
+]
