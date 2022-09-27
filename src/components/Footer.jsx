@@ -15,7 +15,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/javier-calva-a150ab233/" target="_blank">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=(593) 958-7914&text=Hola,%20revise%20tu%20portafolio%20y%20estoy%20interesado%20en%20informacion" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=593958791418&text=Hola,%20revise%20tu%20portafolio%20y%20estoy%20interesado%20en%20informacion" target="_blank">
               <i className="fa-brands fa-whatsapp"></i>
             </a>
           </DivContainer>
