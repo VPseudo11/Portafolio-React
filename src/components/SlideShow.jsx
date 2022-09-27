@@ -5,6 +5,8 @@ import ReactComerce from '../assets/img/img-briefcase/ReactComerce.png'
 import Pokedex from '../assets/img/img-briefcase/Pokedex.png'
 import RickAndMortys from '../assets/img/img-briefcase/RickAndMortys.png'
 import WeatherApp from '../assets/img/img-briefcase/WeatherApp.png'
+import CrudUsers from '../assets/img/img-briefcase/CrudUsers.png'
+import DevFilms from '../assets/img/img-briefcase/Dv-Films.png'
 
 import LeftArrow from '../assets/img/svg/iconmonstr-angel-left-thin.svg'
 import RightArrow from '../assets/img/svg/iconmonstr-angel-right-thin.svg'
@@ -15,7 +17,7 @@ import Slide from './Slide'
 const SlideShow = () => {
     const slideshow = useRef(null)
     const intervalSlideShow = useRef(null)
-    let ImagesProjects = [WeatherApp, RickAndMortys, ReactComerce, Pokedex];
+    let ImagesProjects = [ReactComerce, Pokedex, WeatherApp, RickAndMortys, CrudUsers, DevFilms];
 
     const nextSlide = () => {
         if (slideshow.current.children.length > 0) {

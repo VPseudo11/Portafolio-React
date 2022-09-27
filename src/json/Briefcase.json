@@ -1,26 +1,44 @@
 [
     {
         "id": 1,
-        "title": "Weather App",
-        "description": "Es una aplicacion del clima la cual esta echa con React en donde se hace uso de diferentes APIs para poder obtener tanto la ubiccacion actual del usuario asi como poder realizar la busqueda por ciudades y obtener su clima, ademas cuenta con un sistema para realizar un pronostico de los siquientes dias de la semana.",
-        "link": "https://dev-time-tech.netlify.app"
+        "title": "E-Comerece",
+        "description": "E-comerce construido en React en el cual se hace el uso de una API para obtener la información por parte del Backend acerca de los productos, además se puede registrar en el mismo mediante la creación de un usuario para así poder realizar compra de productos con el uso de un carrito de compras el cual registra todos los productos agregados y a su vez permite acceder al historial de compras del usuario que se encuentre logeado mediante el uso de rutas protegidas.",
+        "link": "https://graceful-melba-9cd586.netlify.app",
+        "repository": "https://github.com/VPseudo11/React-Comerce.git"
     },
     {
         "id": 2,
-        "title": "Rick and Morty Information ",
-        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
-        "link": "https://magical-moonbeam.netlify.app"
+        "title": "Pokedex",
+        "description": "Mediante el uso de la API de Pokémon se construyo una pokedex la cual muestra información sobre todos los pokemons, se puede realizar un filtrado de los mismos por tipo y también realizar la búsqueda de uno en específico, se indican todos los movimientos que puede realizar cada Pokémon, así como los stats base y las localizaciones de donde se encuentran cada uno.",
+        "link": "https://luxury-cendol-967758.netlify.app",
+        "repository": "https://github.com/VPseudo11/Pok-dex.git"
     },
     {
         "id": 3,
-        "title": "",
-        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
-        "link": ""
+        "title": "Weather App",
+        "description": "Es una aplicación del clima la cual esta echa con React en donde se hace uso de diferentes APIs para poder obtener la ubicación actual del usuario, así como poder realizar la búsqueda por ciudades y obtener su clima, además cuenta con un sistema para realizar un pronóstico de los siguientes días de la semana.",
+        "link": "https://dev-time-tech.netlify.app",
+        "repository": "https://github.com/VPseudo11/Time-Tech.git"
     },
     {
         "id": 4,
-        "title": "",
-        "description": "Michel Bay en estado puro, y ese puede ser el mejor y el peor de los cumplidos. En este caso, es más bien lo primero. Para escapar, asaltarán una ambulancia en la que no están solos. Todos juntos, secuestradores y rehenes, vivirán la huida por las calles de Los Ángeles.",
-        "link": ""
+        "title": "Rick and Morty's API",
+        "description": "Es una aplicación la cual muestra información sobre la serie de Rick y Morty, esto mediante el consumo de la API de los mismos, tiene como funcionalidad indicar una localización Random al momento de ingresar en la aplicación y desplegar la información de los residentes que se encuentren en dicha localización, así como también cuenta con una barra de búsqueda en donde se puede buscar una localización ya sea por nombre, tipo o dimensión de la misma.",
+        "link": "https://magical-moonbeam.netlify.app",
+        "repository": "https://github.com/VPseudo11/Entregable-3-1.git"
+    },
+    {
+        "id": 5,
+        "title": "Users CRUD",
+        "description": "CRUD de usuarios construido con React en el cual se puede registrar usuarios, mostrar los usuarios existentes, modificar un usuario especifico y eliminar un usuario en concreto.",
+        "link": "https://keen-shortbread-9bb51b.netlify.app",
+        "repository": "https://github.com/VPseudo11/CRUD-Users.git"
+    },
+    {
+        "id": 6,
+        "title": "Dev-Films",
+        "description": "App de Películas en la cual se despliega la información sobre películas y series usando la API de themoviedb.org",
+        "link": "https://dev-films.netlify.app",
+        "repository": "https://github.com/VPseudo11/DevFilms.git"
     }
 ]

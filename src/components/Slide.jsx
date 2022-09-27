@@ -8,7 +8,14 @@ const Slide = ({ image, description }) => {
       <TextSection>
         <h1>{description.title}</h1>
         <p>{description.description}</p>
-        <a href={description.link} target='_blank'>{description.link}</a>
+        <MediaLinks>
+          <label htmlFor="link"><i className="fa-regular fa-paper-plane"></i></label>
+          <a href={description.link} target='_blank' id='link'>{description.link}</a>
+        </MediaLinks>
+        <MediaLinks>
+          <label htmlFor="repository"><i className="fa-brands fa-github"></i></label>
+          <a href={description.repository} target='_blank' id='repository'>{description.repository}</a>
+        </MediaLinks>
       </TextSection>
     </SlideContainer>
   )
@@ -42,10 +49,24 @@ const TextSection = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+`
 
+const MediaLinks = styled.div`
+  width: 100%;
+  display: flex;
+  margin: 5px 0;
+
+  &>label{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
   &>a{
+    font-size: .9rem;
     text-decoration: none;
     color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `
 export default Slide
